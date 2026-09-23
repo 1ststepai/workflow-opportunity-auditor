@@ -1,0 +1,20 @@
+{
+  "name": "workflow-opportunity-auditor",
+  "interface": {
+    "displayName": "1stStep.ai Workflow Tools"
+  },
+  "plugins": [
+    {
+      "name": "workflow-opportunity-auditor",
+      "source": {
+        "source": "local",
+        "path": "./plugins/workflow-opportunity-auditor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

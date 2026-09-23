@@ -1,0 +1,12 @@
+{
+  "name": "workflow-opportunity-auditor",
+  "owner": {"name": "1ststepai"},
+  "metadata": {"description": "1stStep.ai workflow decision tools. Import this repository as a community marketplace."},
+  "plugins": [
+    {
+      "name": "workflow-opportunity-auditor",
+      "source": "./plugins/workflow-opportunity-auditor",
+      "description": "Audit a workflow and decide whether to reuse, configure, integrate, extend, experiment, or build."
+    }
+  ]
+}

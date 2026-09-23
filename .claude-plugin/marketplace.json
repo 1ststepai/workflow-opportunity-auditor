@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "workflow-opportunity-auditor",
+  "version": "0.1.0",
+  "description": "1stStep.ai workflow decision tools. This is a community marketplace, not an Anthropic official catalog.",
+  "owner": {"name": "1ststepai", "url": "https://github.com/1ststepai"},
+  "plugins": [
+    {
+      "name": "workflow-opportunity-auditor",
+      "source": "./plugins/workflow-opportunity-auditor",
+      "description": "Audit a workflow and decide whether to reuse, configure, integrate, extend, experiment, or build.",
+      "version": "0.1.0",
+      "author": {"name": "1ststepai", "url": "https://github.com/1ststepai"},
+      "homepage": "https://github.com/1ststepai/workflow-opportunity-auditor",
+      "repository": "https://github.com/1ststepai/workflow-opportunity-auditor",
+      "license": "MIT",
+      "keywords": ["business-workflow", "automation-audit", "build-versus-buy"],
+      "category": "productivity",
+      "skills": "./skills/"
+    }
+  ]
+}

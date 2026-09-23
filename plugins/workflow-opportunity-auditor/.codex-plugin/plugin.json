@@ -1,0 +1,28 @@
+{
+  "name": "workflow-opportunity-auditor",
+  "version": "0.1.0",
+  "description": "Audit a business workflow, research existing solutions, and produce an evidence-backed build-versus-reuse decision.",
+  "author": {
+    "name": "1ststepai",
+    "url": "https://github.com/1ststepai"
+  },
+  "homepage": "https://github.com/1ststepai/workflow-opportunity-auditor",
+  "repository": "https://github.com/1ststepai/workflow-opportunity-auditor",
+  "license": "MIT",
+  "keywords": ["business-workflow", "automation-audit", "build-versus-buy", "agent-skills"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Workflow Opportunity Auditor",
+    "shortDescription": "Decide what to automate and what to reuse first.",
+    "longDescription": "Maps a business workflow, calculates an honest baseline from supplied inputs, researches existing products and open-source options, and produces a supervised build-versus-reuse decision with a reversible experiment and kill criteria.",
+    "developerName": "1ststepai",
+    "category": "Productivity",
+    "capabilities": ["Research", "Analysis", "Planning"],
+    "websiteURL": "https://github.com/1ststepai/workflow-opportunity-auditor",
+    "defaultPrompt": [
+      "Audit a repetitive workflow before I automate it.",
+      "Research whether this workflow already has a tool.",
+      "Create a 30-day workflow improvement experiment."
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "workflow_name": "Weekly lead follow-up preparation",
+  "currency": "USD",
+  "frequency_per_month": 4,
+  "minutes_per_run": 180,
+  "people_per_run": 1,
+  "hourly_cost_usd": 40,
+  "current_error_rate_pct": 12,
+  "target_minutes_per_run": 60,
+  "target_error_rate_pct": 5,
+  "tool_cost_monthly_usd": 30,
+  "implementation_cost_usd": 600
+}
