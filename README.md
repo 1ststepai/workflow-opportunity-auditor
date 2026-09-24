@@ -43,6 +43,14 @@ codex plugin add workflow-opportunity-auditor@workflow-opportunity-auditor
 
 Import `https://github.com/1ststepai/workflow-opportunity-auditor` from **Dashboard → Plugins & MCPs**, or copy the plugin directory into your local plugin setup.
 
+### Gemini CLI
+
+Link the repository extension during local development, or copy `plugins/workflow-opportunity-auditor/skills/workflow-opportunity-auditor` into `.agents/skills/` or `.gemini/skills/`. Start a new trusted session and verify the skill appears before relying on it.
+
+### Grok Build and Grok Bot
+
+Grok Build can discover the portable skill from `.agents/skills/` or a local plugin directory. Grok Bot private skills are account-managed: use `plugins/workflow-opportunity-auditor/GROK-BOT.md` as the reviewed handoff and verify the saved skill in the signed-in Bot account.
+
 ## Try it
 
 Ask your agent:
@@ -70,6 +78,10 @@ It treats absent facts as `unknown`, distinguishes estimates from measurements, 
 .claude-plugin/marketplace.json           Claude Code marketplace
 .cursor-plugin/marketplace.json           Cursor marketplace
 plugins/workflow-opportunity-auditor/     Portable plugin
+  gemini-extension.json                   Gemini extension metadata
+  GEMINI.md                               Gemini context gateway
+  GROK-BOT.md                             Grok Bot private-skill handoff
+  PORTABILITY.md                          Runtime portability contract
 examples/sample-workflow.json             Calculator example
 tests/                                    Deterministic calculator tests
 docs/BUILD-IN-PUBLIC.md                   Public demo material
@@ -77,7 +89,7 @@ docs/BUILD-IN-PUBLIC.md                   Public demo material
 
 ## Status
 
-Version `0.1.0` is an early public release. It is useful for structured workflow discovery and build-versus-reuse decisions, but every recommendation still depends on the completeness and quality of the supplied business facts and current research.
+Version `0.2.0` adds cross-model packaging while retaining the evidence-first workflow and supervised operating boundaries. Every recommendation still depends on the completeness and quality of the supplied business facts and current research.
 
 ## License
 
