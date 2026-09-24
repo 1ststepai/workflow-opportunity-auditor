@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "workflow-opportunity-auditor",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Audit a business workflow, research existing solutions, and produce an evidence-backed build-versus-reuse decision.",
   "author": {
     "name": "1ststepai",
@@ -10,7 +10,7 @@
   "homepage": "https://github.com/1ststepai/workflow-opportunity-auditor",
   "repository": "https://github.com/1ststepai/workflow-opportunity-auditor",
   "license": "MIT",
-  "keywords": ["business-workflow", "automation-audit", "build-versus-buy", "agent-skills"],
+  "keywords": ["business-workflow", "automation-audit", "build-versus-buy", "agent-skills", "grok", "grok-bot"],
   "extensions": {
     "com.openai": {
       "interface": {

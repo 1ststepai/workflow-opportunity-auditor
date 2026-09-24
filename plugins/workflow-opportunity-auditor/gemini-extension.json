@@ -1,0 +1,6 @@
+{
+  "name": "workflow-opportunity-auditor",
+  "version": "0.2.0",
+  "description": "Audit a business workflow, research existing solutions, and produce an evidence-backed build-versus-reuse decision.",
+  "contextFileName": "GEMINI.md"
+}

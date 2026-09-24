@@ -10,7 +10,7 @@ We almost built another automation tool.
 
 Then we researched the market and found the more useful gap: business owners need a reliable way to decide what is actually worth automating.
 
-Today we are releasing Workflow Opportunity Auditor, free and open source. 🧵
+Today we are releasing Workflow Opportunity Auditor, free and open source, with portable packaging for Claude Code, Codex, Cursor, Gemini CLI, and Grok Build plus a reviewed Grok Bot private-skill handoff. 🧵
 
 ### Post 2
 
@@ -32,7 +32,7 @@ That keeps the business case honest.
 
 ### Post 5
 
-The v0.1 release is public here: https://github.com/1ststepai/workflow-opportunity-auditor
+The v0.2 release is public here: https://github.com/1ststepai/workflow-opportunity-auditor
 
 Try it on one workflow that costs your team time every week. Reply **1stStep** if you want help running the first audit or access to more free tools.
 
@@ -57,5 +57,5 @@ Try it on one workflow that costs your team time every week. Reply **1stStep** i
 - Use fictional or anonymized business information on screen.
 - Do not show credentials, customer records, private messages, or browser tabs containing personal data.
 - State what is measured, estimated, and unknown.
-- Describe v0.1 as an early public release; do not claim marketplace approval or customer outcomes that have not happened.
+- Describe v0.2 as an early public release; do not claim marketplace approval or customer outcomes that have not happened.
 - End with one concrete outcome: viewers should be able to choose a workflow and collect the baseline facts needed for a sound automation decision.

@@ -2,12 +2,12 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "workflow-opportunity-auditor",
   "displayName": "Workflow Opportunity Auditor",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Audit a business workflow, research existing solutions, and produce an evidence-backed build-versus-reuse decision.",
   "author": {"name": "1ststepai", "url": "https://github.com/1ststepai"},
   "homepage": "https://github.com/1ststepai/workflow-opportunity-auditor",
   "repository": "https://github.com/1ststepai/workflow-opportunity-auditor",
   "license": "MIT",
-  "keywords": ["business-workflow", "automation-audit", "build-versus-buy"],
+  "keywords": ["business-workflow", "automation-audit", "build-versus-buy", "grok", "grok-bot"],
   "skills": "./skills/"
 }
